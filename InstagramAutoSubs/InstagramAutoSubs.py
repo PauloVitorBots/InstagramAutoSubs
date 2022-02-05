@@ -41,7 +41,7 @@ time.sleep(1.4)
 language = input('whats your language ?/Qual seu idioma ? eng=english por=português\n')
 
 if language == ('eng'):
-    print('if you dont know how to use it, go to:\n\nand search README.md')
+    print('if you dont know how to use it, go to:\nhttps://github.com/PauloVitorBots/InstagramAutoSubs\nand search README.md')
     time.sleep(1.4)
     url = input('enter the url of the post you want to like.\n')
     account = int(input('tell how many accounts you put in the txt file(max 100).\n'))
@@ -50,7 +50,7 @@ if language == ('eng'):
     navegador = webdriver.Chrome()
 
 if language == ('por'):
-    print('se você não sabe como usar esse script, vá para:\n\ne procure o arquivo README.md')
+    print('se você não sabe como usar esse script, vá para:\nhttps://github.com/PauloVitorBots/InstagramAutoSubs\ne procure o arquivo README.md')
     time.sleep(1.4)
     url = input('coloque a url da publicação que deseja curtir.\n')
     account = int(input('diga quantas contas você colocou no arquivo txt(maximo 100).\n'))
